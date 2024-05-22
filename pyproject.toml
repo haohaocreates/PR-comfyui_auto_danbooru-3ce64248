@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_auto_danbooru"
+description = "Nodes: Get Danbooru, Tag Encode"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy", "torch", "requests", "beautifulsoup4", "pillow"]
+
+[project.urls]
+Repository = "https://github.com/yffyhk/comfyui_auto_danbooru"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_auto_danbooru"
+Icon = ""
